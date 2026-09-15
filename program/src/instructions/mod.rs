@@ -141,7 +141,7 @@ pub enum SubscriptionsInstruction {
     #[codama(account(
         name = "self_program",
         docs = "This program (for self-CPI)",
-        default_value = public_key("6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA")
+        default_value = public_key("Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh")
     ))]
     TransferFixed(#[codama(name = "transfer_data")] TransferData) = 4,
 
@@ -160,7 +160,7 @@ pub enum SubscriptionsInstruction {
     #[codama(account(
         name = "self_program",
         docs = "This program (for self-CPI)",
-        default_value = public_key("6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA")
+        default_value = public_key("Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh")
     ))]
     TransferRecurring(#[codama(name = "transfer_data")] TransferData) = 5,
 
@@ -213,7 +213,7 @@ pub enum SubscriptionsInstruction {
     #[codama(account(
         name = "self_program",
         docs = "This program (for self-CPI)",
-        default_value = public_key("6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA")
+        default_value = public_key("Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh")
     ))]
     UpdatePlan(#[codama(name = "update_plan_data")] UpdatePlanData) = 8,
 
@@ -237,7 +237,7 @@ pub enum SubscriptionsInstruction {
     #[codama(account(
         name = "self_program",
         docs = "This program (for self-CPI)",
-        default_value = public_key("6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA")
+        default_value = public_key("Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh")
     ))]
     TransferSubscription(#[codama(name = "transfer_data")] TransferData) = 10,
 
@@ -272,7 +272,7 @@ pub enum SubscriptionsInstruction {
     #[codama(account(
         name = "self_program",
         docs = "This program (for self-CPI)",
-        default_value = public_key("6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA")
+        default_value = public_key("Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh")
     ))]
     #[codama(account(
         name = "payer",
@@ -300,7 +300,7 @@ pub enum SubscriptionsInstruction {
     #[codama(account(
         name = "self_program",
         docs = "This program (for self-CPI)",
-        default_value = public_key("6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA")
+        default_value = public_key("Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh")
     ))]
     CancelSubscription = 12,
 
@@ -324,7 +324,7 @@ pub enum SubscriptionsInstruction {
     #[codama(account(
         name = "self_program",
         docs = "This program (for self-CPI)",
-        default_value = public_key("6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA")
+        default_value = public_key("Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh")
     ))]
     ResumeSubscription(#[codama(name = "resume_data")] ResumeData) = 13,
 
@@ -390,7 +390,7 @@ pub enum SubscriptionsInstruction {
     #[codama(account(
         name = "self_program",
         docs = "This program (for self-CPI)",
-        default_value = public_key("6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA")
+        default_value = public_key("Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh")
     ))]
     CancelSubscriptionNow(#[codama(name = "cancel_subscription_now_data")] CancelSubscriptionNowData) = 17,
 

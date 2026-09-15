@@ -46,7 +46,7 @@ pub mod entrypoint;
 #[cfg(test)]
 pub mod tests;
 
-declare_id!("6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA");
+declare_id!("Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh");
 
 #[cfg(not(feature = "no-entrypoint"))]
 use solana_security_txt::security_txt;
