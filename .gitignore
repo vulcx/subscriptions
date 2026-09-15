@@ -6,6 +6,9 @@ dist
 bun.lockb
 
 **/generated/
+# The fork commits its generated clients (program ID differs from upstream).
+!clients/rust/src/generated/
+!clients/typescript/src/generated/
 
 # Surfpool logs and temporary files
 .surfpool/
