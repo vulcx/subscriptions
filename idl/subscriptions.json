@@ -2474,7 +2474,7 @@
           {
             "defaultValue": {
               "kind": "publicKeyValueNode",
-              "publicKey": "6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA"
+              "publicKey": "Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh"
             },
             "docs": [
               "This program (for self-CPI)"
@@ -2604,7 +2604,7 @@
           {
             "defaultValue": {
               "kind": "publicKeyValueNode",
-              "publicKey": "6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA"
+              "publicKey": "Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh"
             },
             "docs": [
               "This program (for self-CPI)"
@@ -2848,7 +2848,7 @@
           {
             "defaultValue": {
               "kind": "publicKeyValueNode",
-              "publicKey": "6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA"
+              "publicKey": "Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh"
             },
             "docs": [
               "This program (for self-CPI)"
@@ -3034,7 +3034,7 @@
           {
             "defaultValue": {
               "kind": "publicKeyValueNode",
-              "publicKey": "6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA"
+              "publicKey": "Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh"
             },
             "docs": [
               "This program (for self-CPI)"
@@ -3184,7 +3184,7 @@
           {
             "defaultValue": {
               "kind": "publicKeyValueNode",
-              "publicKey": "6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA"
+              "publicKey": "Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh"
             },
             "docs": [
               "This program (for self-CPI)"
@@ -3314,7 +3314,7 @@
           {
             "defaultValue": {
               "kind": "publicKeyValueNode",
-              "publicKey": "6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA"
+              "publicKey": "Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh"
             },
             "docs": [
               "This program (for self-CPI)"
@@ -3434,7 +3434,7 @@
           {
             "defaultValue": {
               "kind": "publicKeyValueNode",
-              "publicKey": "6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA"
+              "publicKey": "Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh"
             },
             "docs": [
               "This program (for self-CPI)"
@@ -3793,7 +3793,7 @@
           {
             "defaultValue": {
               "kind": "publicKeyValueNode",
-              "publicKey": "6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA"
+              "publicKey": "Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh"
             },
             "docs": [
               "This program (for self-CPI)"
@@ -4049,7 +4049,7 @@
         ]
       }
     ],
-    "publicKey": "6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA",
+    "publicKey": "Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh",
     "version": "0.5.0-beta.1"
   },
   "standard": "codama",
