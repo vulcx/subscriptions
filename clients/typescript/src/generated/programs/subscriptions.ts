@@ -135,7 +135,7 @@ import {
 } from '../pdas';
 
 export const SUBSCRIPTIONS_PROGRAM_ADDRESS =
-    '6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA' as Address<'6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA'>;
+    'Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh' as Address<'Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh'>;
 
 export enum SubscriptionsAccount {
     FixedDelegation,
@@ -231,7 +231,7 @@ export function identifySubscriptionsInstruction(
     });
 }
 
-export type ParsedSubscriptionsInstruction<TProgram extends string = '6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA'> =
+export type ParsedSubscriptionsInstruction<TProgram extends string = 'Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh'> =
     | ({
           instructionType: SubscriptionsInstruction.InitSubscriptionAuthority;
       } & ParsedInitSubscriptionAuthorityInstruction<TProgram>)

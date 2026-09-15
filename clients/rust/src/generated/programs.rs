@@ -8,4 +8,4 @@
 use solana_address::{address, Address};
 
 /// `subscriptions` program ID.
-pub const SUBSCRIPTIONS_ID: Address = address!("6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA");
+pub const SUBSCRIPTIONS_ID: Address = address!("Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh");

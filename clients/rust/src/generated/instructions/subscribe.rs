@@ -109,7 +109,7 @@ impl SubscribeInstructionArgs {
 ///   4. `[]` subscription_authority_pda
 ///   5. `[optional]` system_program (default to `11111111111111111111111111111111`)
 ///   6. `[]` event_authority
-///   7. `[optional]` self_program (default to `6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA`)
+///   7. `[optional]` self_program (default to `Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh`)
 ///   8. `[writable, signer, optional]` payer
 #[derive(Clone, Debug, Default)]
 pub struct SubscribeBuilder {
@@ -173,7 +173,7 @@ impl SubscribeBuilder {
         self.event_authority = Some(event_authority);
         self
     }
-    /// `[optional account, default to '6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA']`
+    /// `[optional account, default to 'Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh']`
     /// This program (for self-CPI)
     #[inline(always)]
     pub fn self_program(&mut self, self_program: solana_address::Address) -> &mut Self {
@@ -216,7 +216,7 @@ impl SubscribeBuilder {
             event_authority: self.event_authority.expect("event_authority is not set"),
             self_program: self
                 .self_program
-                .unwrap_or(solana_address::address!("6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA")),
+                .unwrap_or(solana_address::address!("Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh")),
             payer: self.payer,
         };
         let args = SubscribeInstructionArgs {

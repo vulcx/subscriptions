@@ -96,7 +96,7 @@ impl ResumeSubscriptionInstructionArgs {
 ///   2. `[writable]` subscription_pda
 ///   3. `[]` subscription_authority
 ///   4. `[]` event_authority
-///   5. `[optional]` self_program (default to `6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA`)
+///   5. `[optional]` self_program (default to `Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh`)
 #[derive(Clone, Debug, Default)]
 pub struct ResumeSubscriptionBuilder {
     subscriber: Option<solana_address::Address>,
@@ -143,7 +143,7 @@ impl ResumeSubscriptionBuilder {
         self.event_authority = Some(event_authority);
         self
     }
-    /// `[optional account, default to '6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA']`
+    /// `[optional account, default to 'Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh']`
     /// This program (for self-CPI)
     #[inline(always)]
     pub fn self_program(&mut self, self_program: solana_address::Address) -> &mut Self {
@@ -177,7 +177,7 @@ impl ResumeSubscriptionBuilder {
             event_authority: self.event_authority.expect("event_authority is not set"),
             self_program: self
                 .self_program
-                .unwrap_or(solana_address::address!("6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA")),
+                .unwrap_or(solana_address::address!("Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh")),
         };
         let args = ResumeSubscriptionInstructionArgs {
             resume_data: self.resume_data.clone().expect("resume_data is not set"),

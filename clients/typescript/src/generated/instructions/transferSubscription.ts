@@ -53,7 +53,7 @@ export type TransferSubscriptionInstruction<
     TAccountTokenMint extends string | AccountMeta<string> = string,
     TAccountTokenProgram extends string | AccountMeta<string> = string,
     TAccountEventAuthority extends string | AccountMeta<string> = string,
-    TAccountSelfProgram extends string | AccountMeta<string> = '6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA',
+    TAccountSelfProgram extends string | AccountMeta<string> = 'Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh',
     TRemainingAccounts extends readonly AccountMeta<string>[] = [],
 > = Instruction<TProgram> &
     InstructionWithData<ReadonlyUint8Array> &

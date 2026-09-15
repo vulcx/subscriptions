@@ -56,7 +56,7 @@ export type SubscribeInstruction<
     TAccountSubscriptionAuthorityPda extends string | AccountMeta<string> = string,
     TAccountSystemProgram extends string | AccountMeta<string> = '11111111111111111111111111111111',
     TAccountEventAuthority extends string | AccountMeta<string> = string,
-    TAccountSelfProgram extends string | AccountMeta<string> = '6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA',
+    TAccountSelfProgram extends string | AccountMeta<string> = 'Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh',
     TAccountPayer extends string | AccountMeta<string> | undefined = undefined,
     TRemainingAccounts extends readonly AccountMeta<string>[] = [],
 > = Instruction<TProgram> &

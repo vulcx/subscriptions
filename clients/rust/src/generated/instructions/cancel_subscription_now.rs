@@ -96,7 +96,7 @@ impl CancelSubscriptionNowInstructionArgs {
 ///   2. `[]` plan_pda
 ///   3. `[writable]` subscription_pda
 ///   4. `[]` event_authority
-///   5. `[optional]` self_program (default to `6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA`)
+///   5. `[optional]` self_program (default to `Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh`)
 #[derive(Clone, Debug, Default)]
 pub struct CancelSubscriptionNowBuilder {
     subscriber: Option<solana_address::Address>,
@@ -143,7 +143,7 @@ impl CancelSubscriptionNowBuilder {
         self.event_authority = Some(event_authority);
         self
     }
-    /// `[optional account, default to '6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA']`
+    /// `[optional account, default to 'Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh']`
     /// This program (for self-CPI)
     #[inline(always)]
     pub fn self_program(&mut self, self_program: solana_address::Address) -> &mut Self {
@@ -180,7 +180,7 @@ impl CancelSubscriptionNowBuilder {
             event_authority: self.event_authority.expect("event_authority is not set"),
             self_program: self
                 .self_program
-                .unwrap_or(solana_address::address!("6DWb3h2mgsGXxJJWkfeK89T1shoJL65Rvu9EM5URfvfA")),
+                .unwrap_or(solana_address::address!("Sub6S6TFFehq9QKvpBActTRYgopMcC3D56uVmjfNUFh")),
         };
         let args = CancelSubscriptionNowInstructionArgs {
             cancel_subscription_now_data: self
